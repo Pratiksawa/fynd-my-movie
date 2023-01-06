@@ -4,7 +4,7 @@ import logging
 import aiosqlite
 import json
 from aiohttp_tokenauth import token_auth_middleware
-import  os
+import os
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s -%(message)s', 
